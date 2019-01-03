@@ -2,6 +2,8 @@ react-webpack-boilerplate
 -----------------------------------------
 A basic Webpack boilerplate with React / anu.
 
+基于 https://github.com/sitorhy/react-webpack-boilerplate 项目做了一点修改，使用react/anujs兼容ie8
+
 ## Usage
 - Install:
     - npm: `npm install`
