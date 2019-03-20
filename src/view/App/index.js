@@ -1,10 +1,10 @@
 import React from "react";
-import {Router} from "react-router";
+import { Router } from "react-router";
 
-import routes from "../../routes";
-import $http from "../../utils/axiosCore";
-import API from "../../config/api";
-import {message} from "antd";
+import routes from "../../router/routes";
+//import $http from "../../utils/axiosCore";
+//import API from "../../utils/api";
+//import { message } from "antd";
 
 class App extends React.Component {
     render() {

@@ -30,15 +30,13 @@ const $_DEVELOPMENT_CONFIG=
 			port:8099,
 			host:"127.0.0.1",
 			open:false,
-			//林休孟 "http://192.168.5.77:8012/"
-			//孙子文 http://192.168.5.74:8081
-			//测试 http://192.168.5.108:8081/luxiportal
+
             proxy:{
-                "/luxiportal": {
-                    "target": "http://192.168.5.108:8081/luxiportal",
+                "/finepetro-api": {
+                    "target": "http://10.71.0.94:8091/finepetro-api",
                     "changeOrigin": true,
                     "pathRewrite": {
-                        "^/luxiportal": ""
+                        "^/finepetro-api": ""
                     }
                 }
             }
